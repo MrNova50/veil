@@ -1,6 +1,6 @@
 {
   "name": "invisible-wallet-sdk",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Client SDK for Invisible Wallet (Soroban + WebAuthn) — supports Web and React Native",
   "repository": {
     "type": "git",
@@ -72,11 +72,6 @@
   ],
   "author": "",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Miracle656/veil.git",
-    "directory": "sdk"
-  },
   "homepage": "https://docs.useveilapp.xyz/sdk-reference",
   "bugs": {
     "url": "https://github.com/Miracle656/veil/issues"
@@ -220,7 +215,9 @@
         "dom"
       ],
       "paths": {
-        "invisible-wallet-sdk": ["./dist/index.d.ts"]
+        "invisible-wallet-sdk": [
+          "./dist/index.d.ts"
+        ]
       }
     }
   }
